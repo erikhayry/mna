@@ -1,10 +1,14 @@
-import {Component, CORE_DIRECTIVES} from 'angular2/angular2';
+import {Component, View, CORE_DIRECTIVES} from 'angular2/angular2';
 import {Album} from '../album/album';
+import {AlbumComponent} from '../album/album.view';
 
 @Component({
-  selector: 'result',
+  selector: 'result'
+})
+
+@View({
   templateUrl: './components/result/result.html',
-  directives: [CORE_DIRECTIVES]
+  directives: [CORE_DIRECTIVES, AlbumComponent]
 })
 
 export class ResultCmp {

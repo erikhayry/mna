@@ -1,4 +1,4 @@
 Result
 <ul>
-  <li *ng-for="#album of albums">{{album.artist}} - {{album.name}}</li>
+  <li *ng-for="#album of albums"><album [album]="album"></album></li>
 </ul>
