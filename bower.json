@@ -1,0 +1,24 @@
+{
+  "name": "My Next Album",
+  "description": "TODO",
+  "main": "",
+  "authors": [
+    "Erik Portin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/erikportin/mna",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4"
+  },
+  "devDependencies": {
+    "bootstrap": "4"
+  }
+}

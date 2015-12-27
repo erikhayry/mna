@@ -1,4 +1,5 @@
-Result
-<ul>
-  <li *ng-for="#album of albums"><album [album]="album"></album></li>
+<ul class="row">
+  <li class="col-sm-6 col-md-4" *ng-for="#album of albums.get()">
+    <album [album]="album"></album>
+  </li>
 </ul>

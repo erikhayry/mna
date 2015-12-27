@@ -1,8 +1,7 @@
-import {Component, CORE_DIRECTIVES} from 'angular2/angular2';
+import {Component} from 'angular2/angular2';
 
 @Component({
   selector: 'home',
-  templateUrl: './components/home/home.html',
-  styleUrls: ['./components/home/home.css']
+  templateUrl: './components/home/home.html'
 })
 export class HomeCmp {}

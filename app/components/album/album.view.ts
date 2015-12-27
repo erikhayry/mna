@@ -1,5 +1,4 @@
 import {Component, View} from 'angular2/angular2';
-import {Album} from '../album/album';
 
 @Component({
   selector: 'album',
@@ -7,13 +6,7 @@ import {Album} from '../album/album';
 })
 
 @View({
-  template: `
-    <div>
-      <p>{{album.artist}}</p>
-      <p>{{album.name}}</p>
-    </div>
-  `
+  templateUrl: 'components/album/album.html'
 })
 
 export class AlbumComponent {}
-
